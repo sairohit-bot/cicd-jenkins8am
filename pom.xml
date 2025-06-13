@@ -30,24 +30,23 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				         <cloudHubDeployment>
-				                 <uri>https://anypoint.mulesoft.com</uri>
-				                 <muleversion>4.9.0</muleversion>
-				                 <username>sairohth123</username>
-				                 <password></password>
-				                 <applicationName>cicd-jenkins-impl</applicationName>
-				                 <environment>Sandbox</environment>
-				                 <workers>1</workers>
-				                 <workerType>Micro</workerType>
-				                 <objectStoreV2>true</objectStoreV2>
-				                 <properties>
-				                          <key>value</key>
-				                 </properties>
-				                 </cloudHubDeployment>
-				            </configuration>
-				            
-				                 
-	    </plugin>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleversion>4.9.0</muleversion>
+						<username>sairohth123</username>
+						<password/>
+						<applicationName>cicd-jenkins-impl</applicationName>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<key>value</key>
+						</properties>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
