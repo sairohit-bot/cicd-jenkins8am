@@ -32,7 +32,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleversion>4.9.0</muleversion>
+						<muleversion>4.3.0</muleversion>
 						<username>sairohth123</username>
 						<password/>
 						<applicationName>cicd-jenkins-impl</applicationName>
